@@ -86,11 +86,13 @@ def crawl():
                     'crawl_time': datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
                     'photo': '',
                     'lang': source['lang'],
-                    'author': item['author'],
+                    'author': '',
                     'description': '',
                     'digest': '',
                     'content': ''
                 }
+                if 'author' in item:
+                    entry['author'] = item['author']
                 if 'content' in item:
                     entry['content'] = item['content'][0]['value']
                 if entry['content'] == '':
