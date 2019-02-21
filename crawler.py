@@ -133,9 +133,9 @@ def crawl():
 
 
 crawl()
-# sched = BlockingScheduler()
-# sched.add_job(crawl, 'interval', minutes=1)
-# sched.start()
+sched = BlockingScheduler()
+sched.add_job(crawl, 'interval', minutes=1)
+sched.start()
 
 
 conn.close()
