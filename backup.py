@@ -65,7 +65,7 @@ def crawl():
         source = {
             'id': source[0],
             'name': source[1],
-            'feedUrl': source[2],
+            'feedUrl': source[2].replace("188.131.178.76", "127.0.0.1"),
             'lang': source[3],
             'form': source[4],
             'content_rss': source[5]

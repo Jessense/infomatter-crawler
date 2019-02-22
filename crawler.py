@@ -17,7 +17,7 @@ import feedparser
 import re
 import mysql.connector
 # 注意把password设为你的root口令:
-conn = mysql.connector.connect(user='root', password='', database='test')
+conn = mysql.connector.connect(user='root', password='infomatter666', database='test')
 SENTENCES_COUNT = 5
 TZ_DELTA = 8
 
@@ -35,26 +35,17 @@ add_entry = ("INSERT INTO entries "
 
 
 def getImg(html):
-    reg1 = r'src="(.*?\.jpg)" alt'
-    reg2 = r'src="(.*?\.jpeg)" alt'
-    reg3 = r'src="(.*?\.png)" alt'
-    reg4 = r'src="(.*?\.webp)" alt'
-    reg5 = r'src="(.*?\.gif)" alt'
-
-    pattern = re.compile("|".join([reg1, reg2, reg3, reg4, reg5]))
-    imglist = re.findall(pattern, html)
-
-    if len(imglist) > 0:
-        for item in imglist[0]:
-            if len(item) > 0:
-                return item
-    return ""
+    reg = r'(.*?|\n)<img [^\>|\n]*src\s*=\s*([\"\'])(.*?)\2'
+    matchObj = re.match(reg, html, re.DOTALL)
+    if matchObj:
+        return matchObj.group(3)
+    return ''
 
 def crawl():
     print(datetime.now())
     cursor = conn.cursor()
     cursor.execute("SET NAMES utf8mb4")
-    cursor.execute('select id, name, feedUrl, lang, form, content_rss from sources where mod(id, 30)=mod(%s, 30)', (datetime.now().minute, ))
+    cursor.execute('select id, name, feedUrl, lang, form, content_rss from sources')
     sources = cursor.fetchall()
     start = time.clock()
     for source in sources:
@@ -63,7 +54,7 @@ def crawl():
         source = {
             'id': source[0],
             'name': source[1],
-            'feedUrl': source[2],
+            'feedUrl': source[2].replace("188.131.178.76", "127.0.0.1"),
             'lang': source[3],
             'form': source[4],
             'content_rss': source[5]
@@ -74,54 +65,68 @@ def crawl():
             LANGUAGE = 'english'
         items = feedparser.parse(source['feedUrl'])['items']
         for item in items:
-            cursor.execute('select 1 from entries where link = %s limit 1', (item['link'],))
+            cursor.execute('select 1 from entries where link = %s and title = %s limit 1', (item['link'], item['title']))
             results = cursor.fetchall()
             if (not results) or (len(results) == 0):
-                entry = {
-                    'title': item['title'],
-                    'link': item['link'],
-                    'source_id': source['id'],
-                    'source_name': source['name'],
-                    'time': datetime.fromtimestamp(mktime(item['published_parsed'])) + timedelta(hours=TZ_DELTA),
-                    'crawl_time': datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-                    'photo': '',
-                    'lang': source['lang'],
-                    'author': '',
-                    'description': '',
-                    'digest': '',
-                    'content': ''
-                }
-                if 'author' in item:
-                    entry['author'] = item['author']
-                if 'content' in item:
-                    entry['content'] = item['content'][0]['value']
-                if entry['content'] == '':
-                    entry['content'] = item['summary']
-                if entry['content'] != '':
-                    entry['photo'] = getImg(entry['content'])
-                if source['form'] == 1:
-                    if source['content_rss'] == 1 and entry['content'] != '':
-                        parser = HtmlParser.from_string(entry['content'], "", Tokenizer(LANGUAGE))
-                        stemmer = Stemmer(LANGUAGE)
-                        summarizer = Summarizer(stemmer)
-                        summarizer.stop_words = get_stop_words(LANGUAGE)
-                        for sentence in summarizer(parser.document, SENTENCES_COUNT):
-                            entry['digest'] += str(sentence)
-                            if len(entry['digest']) >= 500:
-                                break
-
+                try:
+                    entry = {
+                        'title': item['title'],
+                        'link': item['link'],
+                        'source_id': source['id'],
+                        'source_name': source['name'],
+                        'time': '',
+                        'crawl_time': datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+                        'photo': '',
+                        'lang': source['lang'],
+                        'author': '',
+                        'description': '',
+                        'digest': '',
+                        'content': ''
+                    }
+                    ############ Additonal Settings for special sources ##############
+                    if entry['source_name'] == 'Hacker News':
+                        entry['link'] = item['comments']
+                    ###########################
+                    if 'published_parsed' in item:
+                        entry['time'] = datetime.fromtimestamp(mktime(item['published_parsed'])) + timedelta(hours=TZ_DELTA)
                     else:
-                        parser = HtmlParser.from_url(entry['link'], Tokenizer(LANGUAGE))
-                        stemmer = Stemmer(LANGUAGE)
-                        summarizer = Summarizer(stemmer)
-                        summarizer.stop_words = get_stop_words(LANGUAGE)
-                        for sentence in summarizer(parser.document, SENTENCES_COUNT):
-                            entry['digest'] += str(sentence)
-                            if len(entry['digest']) >= 500:
-                                break
-                    entry['digest'] = entry['digest'][0:500]
-                cursor.execute(add_entry, entry)
-                conn.commit()
+                        entry['time'] = entry['crawl_time']
+                    if 'author' in item:
+                        entry['author'] = item['author'][0:20]
+                    if 'content' in item:
+                        entry['content'] = item['content'][0]['value']
+                    if entry['content'] == '':
+                        entry['content'] = item['summary']
+                    if entry['content'] != '':
+                        entry['photo'] = getImg(entry['content'])
+                        if len(entry['photo']) > 255:
+                            entry['photo'] = ''
+                    if source['form'] == 1:
+                        if source['content_rss'] == 1 and entry['content'] != '':
+                            parser = HtmlParser.from_string(entry['content'], "", Tokenizer(LANGUAGE))
+                            stemmer = Stemmer(LANGUAGE)
+                            summarizer = Summarizer(stemmer)
+                            summarizer.stop_words = get_stop_words(LANGUAGE)
+                            for sentence in summarizer(parser.document, SENTENCES_COUNT):
+                                entry['digest'] += str(sentence)
+                                if len(entry['digest']) >= 500:
+                                    break
+
+                        else:
+                            parser = HtmlParser.from_url(entry['link'], Tokenizer(LANGUAGE))
+                            stemmer = Stemmer(LANGUAGE)
+                            summarizer = Summarizer(stemmer)
+                            summarizer.stop_words = get_stop_words(LANGUAGE)
+                            for sentence in summarizer(parser.document, SENTENCES_COUNT):
+                                entry['digest'] += str(sentence)
+                                if len(entry['digest']) >= 500:
+                                    break
+                        entry['digest'] = entry['digest'][0:500]
+                    cursor.execute(add_entry, entry)
+                    conn.commit()
+                except Exception as e:
+                    print("Unexpected Error: {}".format(e))
+
         # print(d['feed']['title'])
     elapsed = time.clock() - start
     print('time used: ' + str(elapsed))
@@ -132,9 +137,8 @@ def crawl():
 
 
 
-crawl()
 sched = BlockingScheduler()
-sched.add_job(crawl, 'interval', minutes=1)
+sched.add_job(crawl, 'interval', minutes=30)
 sched.start()
 
 

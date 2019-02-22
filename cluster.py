@@ -8,7 +8,7 @@ import time
 
 tolerance = 10  # 容忍度，判断是不是相似用的
 
-response = requests.get('http://188.131.178.76:3000/entries/cluster/100000')
+response = requests.get('http://188.131.178.76:3000/entries/cluster/100')
 response_text = response.text
 entryset = ast.literal_eval(response_text)
 
@@ -80,9 +80,12 @@ print(time.clock()-start)
 #     if entry["cluster"] not in result:
 #         result[entry["cluster"]] = 0
 #     result[entry["cluster"]] += 1
-#     #print(entry)
-#     if entry["cluster"] == 21:
-#         print(entry['title'])
+# #     #print(entry)
+# #     if entry["cluster"] == 21:
+# #         print(entry['title'])
 # for key in result:
 #     if result[key] >= 10:
 #         print(str(key) + ' : ' + str(result[key]))
+#         for entry in entryset:
+#             if entry['cluster'] == key:
+#                 print(str(entry['id']) +'\t'+ entry['title'])

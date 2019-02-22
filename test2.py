@@ -1,22 +1,19 @@
 import re
-content = "<img src=\"https://alioss.gcores.com/uploads/article/4d97242a-e3c0-4ae3-9a87-707e65a45bba.png\" alt=\"\" />\n  <br>\n\n    <p><em>导语：昨天下午机核有幸受邀参加了《阿丽塔：战斗天使》的中国新闻发布会，主演罗莎&middot;萨拉查、克里斯托弗&middot;沃尔兹、制片人乔&middot;兰道、&ldquo;卡神&rdquo;詹姆斯&middot;卡梅隆、《铳梦》原作者木城雪户以及导演罗伯特&middot;罗德里格兹莅临现场。在发布会前，詹姆斯&middot;卡梅隆先生更合刘慈欣老师&ldquo;聊了聊&rdquo;他们对科幻小说与电影的理解。</em></p>\n\n    <div style=\"margin:20px 0;\">\n      <img style=\"max-width:100%;\" src=\"https://alioss.gcores.com/uploads/image/d68967fb-8894-437d-afab-8e04d2b5a4fe_watermark.jpg\" alt=\"\" />\n    </div>\n    <p style=\"margin-left:0cm; margin-right:0cm; text-align:justify\">"
+content = '''
+<img src="http://inews.gtimg.com/newsapp_bt/0/7810535826/641" style="display:block;"/>
+<p class="text" style="TEXT-INDENT:2em">腾讯科技讯  日前，WCG-official官方微博宣布，《王者荣耀》正式列入WCG2019西安赛事的游戏项目，它也成为WCG首
+个中国自研手游正式比赛项目。</p><p class="text" style="TEXT-INDENT:2em">《王者荣耀》所有玩家都可以通过网上报名的方式参与WCG预选赛，在比赛中崭露头角表现优
+秀，即有机会作为国家代表出战WCG决赛。</p><p class="text" style="TEXT-INDENT:2em"><p align="center"></p></p>
+'''
 
 
 def getImg(html):
-    reg1 = r'src="(.*?\.jpg)" alt'
-    reg2 = r'src="(.*?\.jpeg)" alt'
-    reg3 = r'src="(.*?\.png)" alt'
-    reg4 = r'src="(.*?\.webp)" alt'
-    reg5 = r'src="(.*?\.gif)" alt'
-
-
-    pattern = re.compile("|".join([reg1, reg2, reg3, reg4, reg5]))
-    imglist = re.findall(pattern, content)
-    
-    if len(imglist) > 0:
-        for item in imglist[0]:
-            if len(item) > 0:
-                return item
-    return ""
+    reg = r'(.*?|\n)<img [^\>|\n]*src\s*=\s*([\"\'])(.*?)\2'
+    matchObj = re.match(reg, content, re.DOTALL)
+    if matchObj:
+        return matchObj.group(3)    
+    else:
+        return ''
 
 print(getImg(content))
+
