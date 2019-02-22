@@ -72,8 +72,7 @@ segmentation(entryset, stopwords)
 simhashsort(datadic, entryset)
 print(time.clock()-start)
 # print(entryset)
-# f = open('clustered.txt', 'w')
-# f.write(str(entryset))
+
 
 # result = {}
 # for entry in entryset:
