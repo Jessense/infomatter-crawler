@@ -8,6 +8,8 @@ from sumy.nlp.tokenizers import Tokenizer
 from sumy.summarizers.lsa import LsaSummarizer as Summarizer
 from sumy.nlp.stemmers import Stemmer
 from sumy.utils import get_stop_words
+from simhash import Simhash, SimhashIndex
+
 
 from apscheduler.schedulers.blocking import BlockingScheduler
 from datetime import datetime, timedelta, timezone
@@ -33,6 +35,11 @@ add_entry = ("INSERT INTO entries "
 # summarizer_en = Summarizer(stemmer)
 # summarizer_en.stop_words = get_stop_words('english')
 
+objs = []
+index = 
+def restore_simhash():
+    cursor = conn.cursor()
+    
 
 def getImg(html):
     reg = r'(.*?|\n)<img [^\>|\n]*src\s*=\s*([\"\'])(.*?)\2'

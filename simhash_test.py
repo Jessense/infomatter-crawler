@@ -5,10 +5,11 @@ import requests
 import json
 import ast
 import time
+from sumy.utils import get_stop_words
+import nltk
 
 
-
-tolerance = 15  # 容忍度，判断是不是相似用的
+tolerance = 13  # 容忍度，判断是不是相似用的
 
 
 
@@ -43,43 +44,55 @@ def is_cn(word):
     return False
 
 def get_features(s):
-    width = 3
+    punc = list('`~!@#$%^&*()_+-={}|:\"<>?[]\\;\',./')
     s = s.lower()
-    s = re.sub(r'[^\w]+', '', s)
-    return [s[i:i + width] for i in range(max(len(s) - width + 1, 1))]
-
+    s = nltk.word_tokenize(s)
+    for word in s:
+        if word in get_stop_words('english') or word in punc:
+            s.remove(word)
+    return s
 
 def get_features_cn(s):
+    punc = list('·~！!@#￥$%…&*（）()_——+-={}|、：:\'\"\\“”《》<>？?【】[]；‘’，。,./')
     s = s.lower()
-    s = re.sub(r'[^\w]+', '', s)
     s = (" ".join(jieba.cut(s))).split()
     for word in s:
-        if word in stopwords:
+        if word in get_stop_words('chinese') or word in punc:
             s.remove(word)
     return s
 
 def clustering():
     fout = open('cluster.txt', 'w', encoding='UTF-8')
-    response = requests.get('http://188.131.178.76:3000/entries/cluster/5000')
+    response = requests.get('http://188.131.178.76:3000/entries/cluster/1000')
     response_text = response.text
     entrylist = ast.literal_eval(response_text)
-    # entrylist = [
-    #     {'id': 1, 'title': u'How are you? I Am fine. blar blar blar blar blar Thanks.', 'cluster': 0, 'isclustered': False},
-    #     {'id': 2, 'title': u'How are you i am fine. blar blar blar blar blar than', 'cluster': 0, 'isclustered': False},
-    #     {'id': 3, 'title': u'This is simhash test.', 'cluster': 0, 'isclustered': False},
-    # ]
+
 
     objs = []
     entrydic = {}
     for item in entrylist:
-        if not is_en(item['title']) and not item['link'].startswith("https://weibo.com"):
+        if not is_en(item['title']):
+            if not item['link'].startswith("https://weibo.com"):
+                sim = Simhash(get_features_cn(item['title']))
+                objs.append((str(item['id']), sim))
+                entrydic[str(item['id'])] = {
+                    'title': item['title'],
+                    'cluster': 0,
+                    'sim_count': 0,
+                    'link': item['link'],
+                    'simhash': sim.value
+                }
+        else:
+            sim = Simhash(get_features(item['title']))
+            objs.append((str(item['id']), sim))
             entrydic[str(item['id'])] = {
                 'title': item['title'],
                 'cluster': 0,
                 'sim_count': 0,
-                'link': item['link']
+                'link': item['link'],
+                'simhash': sim.value
             }
-            objs.append((str(item['id']), Simhash(get_features_cn(item['title']))))
+
 
     index = SimhashIndex(objs, k=tolerance)
     cluster_num = 1
@@ -89,6 +102,7 @@ def clustering():
             for item in sims:
                 entrydic[item]['cluster'] = cluster_num
                 if len(sims) > 1:
+                    entrydic[item]['sim_count'] = len(sims) - 1
                     fout.write(item + '\t' + str(entrydic[item]['cluster']) + '\t' + entrydic[item]['title'] + '\t' + entrydic[item]['link'] + '\n')
             cluster_num += 1
 

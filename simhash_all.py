@@ -87,7 +87,7 @@ def clustering():
                 entrydic[item]['cluster'] = cluster_num
                 # if len(sims) > 1:
                 entrydic[item]['sim_count'] = len(sims) - 1
-                cursor.execute('UPDATE entries SET cluster=%s, simhash=%s', (cluster_num, len(sims)-1))
+                cursor.execute('UPDATE entries SET cluster=%s, sim_count=%s, simhash=%s', (entrydic[item]['cluster'], entrydic[item]['sim_count'], entrydic[item]['simhash']))
                     # fout.write(item + '\t' + str(entrydic[item]['cluster']) + '\t' + entrydic[item]['title'] + '\t' + entrydic[item]['link'] + '\n')
             cluster_num += 1
     conn.commit()
