@@ -8,11 +8,11 @@ import time
 import mysql.connector
 from sumy.utils import get_stop_words
 import nltk
+from config import *
 # 注意把password设为你的root口令:
-conn = mysql.connector.connect(user='root', password='123456', database='test')
+conn = mysql.connector.connect(user='root', password=sql_password, database='test')
 conn.autocommit = True
 
-tolerance = 13  # 容忍度，判断是不是相似用的
 
 last_cluster_num = 0
 

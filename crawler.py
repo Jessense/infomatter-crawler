@@ -20,13 +20,13 @@ import time
 import feedparser
 import re
 import mysql.connector
+from config import *
 # 注意把password设为你的root口令:
-conn = mysql.connector.connect(user='root', password='123456', database='test')
+conn = mysql.connector.connect(user='root', password=sql_password, database='test')
 conn.autocommit = True
 
 SENTENCES_COUNT = 5
 TZ_DELTA = 8
-tolerance = 13
 
 add_entry = ("INSERT INTO entries "
             "(title, link, source_id, source_name, time, crawl_time, photo, author, lang, description, digest, content, cluster, sim_count, simhash) "
