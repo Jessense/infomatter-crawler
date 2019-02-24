@@ -10,10 +10,26 @@ from sumy.utils import get_stop_words
 import nltk
 # 注意把password设为你的root口令:
 conn = mysql.connector.connect(user='root', password='123456', database='test')
-conn.autocommit = True # 重要！
+conn.autocommit = True
 
 tolerance = 13  # 容忍度，判断是不是相似用的
 
+last_cluster_num = 0
+
+objs = []
+index = SimhashIndex(objs, k=tolerance)
+
+
+def restore_simhash():
+    global last_cluster_num
+    cursor = conn.cursor()
+    cursor.execute('select id, simhash from entries where simhash > 0')
+    entries = cursor.fetchall()
+    for entry in entries:
+        index.add(str(entry[0]), Simhash(int(entry[1])))
+
+    cursor.execute('select last_cluster from somevariables')
+    last_cluster_num = cursor.fetchone()[0]  # 不需要再加1
 
 def is_en(s):
     for uchar in s:
@@ -52,7 +68,8 @@ def get_features_cn(s):
 def clustering():
     fout = open('cluster.txt', 'w', encoding='UTF-8')
     cursor = conn.cursor()
-    cursor.execute('SELECT id, title, cluster, sim_count, link, simhash FROM entries')
+    cursor.execute(
+        'SELECT id, title, cluster, sim_count, link, simhash FROM entries where cluster=0')
     entrylist = cursor.fetchall()
     objs = []
     entrydic = {}
@@ -80,7 +97,7 @@ def clustering():
             }
 
     index = SimhashIndex(objs, k=tolerance)
-    cluster_num = 1
+    cluster_num = last_cluster_num
     for key in entrydic:
         if entrydic[key]['cluster'] == 0:
             sims = index.get_near_dups(
@@ -90,15 +107,15 @@ def clustering():
                 # if len(sims) > 1:
                 entrydic[item]['sim_count'] = len(sims) - 1
                 if len(sims) > 1:
-                    fout.write(item + '\t' + str(entrydic[item]['cluster']) + '\t' + entrydic[item]['title']  + '\n')
-                cursor.execute('UPDATE entries SET cluster=%s, sim_count=%s, simhash=%s where id = %s', (entrydic[item]['cluster'], entrydic[item]['sim_count'], str(entrydic[item]['simhash']), item))
+                    fout.write(
+                        item + '\t' + str(entrydic[item]['cluster']) + '\t' + entrydic[item]['title'] + '\n')
+                cursor.execute('UPDATE entries SET cluster=%s, sim_count=%s, simhash=%s where id = %s', (
+                    entrydic[item]['cluster'], entrydic[item]['sim_count'], str(entrydic[item]['simhash']), item))
                 # conn.commit()
-                    # fout.write(item + '\t' + str(entrydic[item]['cluster']) + '\t' + entrydic[item]['title'] + '\t' + entrydic[item]['link'] + '\n')
+                # fout.write(item + '\t' + str(entrydic[item]['cluster']) + '\t' + entrydic[item]['title'] + '\t' + entrydic[item]['link'] + '\n')
             cluster_num += 1
     cursor.execute('UPDATE somevariables SET last_cluster=%s', (cluster_num,))
     # conn.commit()
     conn.close()
-
-
 
 clustering()
