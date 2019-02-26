@@ -3,7 +3,9 @@ import mysql.connector
 conn = mysql.connector.connect(user='root', password='123456', database='test')
 
 cursor = conn.cursor()
-cursor.execute("INSERT INTO readed (user_id, entry_id) VALUES (1, 1)")
-print(cursor.lastrowid)
-conn.commit()
+cursor.execute(
+    "SELECT id, title, cate11, cate21, tag1 from entries order by id desc limit 3")
+# conn.commit()
+# cursor.execute('select id, title, category from entries where id = 200')
+print(cursor.fetchone())
 conn.close()

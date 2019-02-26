@@ -28,8 +28,8 @@ def restore_simhash():
     for entry in entries:
         index.add(str(entry[0]), Simhash(int(entry[1])))
 
-    cursor.execute('select last_cluster from somevariables')
-    last_cluster_num = cursor.fetchone()[0]  # 不需要再加1
+    cursor.execute('select max(cluster) from entries')
+    last_cluster_num = cursor.fetchone()[0] + 1 # 不需要再加1
 
 def is_en(s):
     for uchar in s:
@@ -114,7 +114,7 @@ def clustering():
                 # conn.commit()
                 # fout.write(item + '\t' + str(entrydic[item]['cluster']) + '\t' + entrydic[item]['title'] + '\t' + entrydic[item]['link'] + '\n')
             cluster_num += 1
-    cursor.execute('UPDATE somevariables SET last_cluster=%s', (cluster_num,))
+    # cursor.execute('UPDATE somevariables SET last_cluster=%s', (cluster_num,))
     # conn.commit()
     conn.close()
 

@@ -10,7 +10,8 @@ from sumy.utils import get_stop_words
 import nltk
 from config import *
 # 注意把password设为你的root口令:
-conn = mysql.connector.connect(user='root', password=sql_password, database='test')
+conn = mysql.connector.connect(
+    user='root', password=sql_password, database='test')
 conn.autocommit = True # 重要！
 
 
@@ -95,7 +96,7 @@ def clustering():
                 # conn.commit()
                     # fout.write(item + '\t' + str(entrydic[item]['cluster']) + '\t' + entrydic[item]['title'] + '\t' + entrydic[item]['link'] + '\n')
             cluster_num += 1
-    cursor.execute('UPDATE somevariables SET last_cluster=%s', (cluster_num,))
+    # cursor.execute('UPDATE somevariables SET last_cluster=%s', (cluster_num,))
     # conn.commit()
     conn.close()
 
