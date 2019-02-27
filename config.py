@@ -1,2 +1,2 @@
-sql_password = 'Infomatter666!'
+sql_password = ''
 tolerance = 13
