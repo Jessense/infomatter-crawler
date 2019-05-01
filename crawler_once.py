@@ -26,9 +26,6 @@ from aip import AipNlp
 from config import *
 
 
-
-
-
 client = AipNlp(APP_ID, API_KEY, SECRET_KEY)
 
 
@@ -37,10 +34,8 @@ conn = mysql.connector.connect(user='root', password=sql_password, database='tes
 conn.autocommit = True
 
 
-
-
 add_entry = ("INSERT INTO entries "
-            "(title, link, source_id, source_name, time, crawl_time, photo, lang, author, description, digest, content, cluster, sim_count, simhash, cate11, cate12, cate13, cate21, cate22, cate23, tag1, tag2, tag3, tag4, tag5) "
+             "(title, link, source_id, source_name, time, crawl_time, photo, lang, author, description, digest, content, cluster, sim_count, simhash, cate11, cate12, cate13, cate21, cate22, cate23, tag1, tag2, tag3, tag4, tag5) "
              "VALUES (%(title)s, %(link)s, %(source_id)s, %(source_name)s, %(time)s, %(crawl_time)s, %(photo)s, %(lang)s, %(author)s, %(description)s, %(digest)s, %(content)s, %(cluster)s, %(sim_count)s, %(simhash)s, %(cate11)s, %(cate12)s, %(cate13)s, %(cate21)s, %(cate22)s, %(cate23)s, %(tag1)s, %(tag2)s, %(tag3)s, %(tag4)s, %(tag5)s)")
 
 
@@ -48,6 +43,8 @@ last_cluster_num = 0
 
 objs = []
 index = SimhashIndex(objs, k=tolerance)
+
+
 def restore_simhash():
     global last_cluster_num
     cursor = conn.cursor()
@@ -58,6 +55,7 @@ def restore_simhash():
 
     cursor.execute('select max(cluster) from entries')
     last_cluster_num = cursor.fetchone()[0] + 1
+
 
 def getImg(html):
     reg = r'(.*?|\n)<img [^\>|\n]*src\s*=\s*([\"\'])(.*?)\2'
@@ -104,6 +102,7 @@ def filterWeiboTags(htmlstr):
 
     return s
 
+
 def is_en(s):
     for uchar in s:
         if uchar >= u'\u4e00' and uchar <= u'\u9fa5':
@@ -136,6 +135,7 @@ def get_features(s):
                 s.remove(word)
         return s
 
+
 def crawl():
     print(datetime.now())
     cursor = conn.cursor()
@@ -160,7 +160,8 @@ def crawl():
         items = feedparser.parse(source['feedUrl'])['items']
         for item in items:
             try:
-                cursor.execute('select 1 from entries where link = %s limit 1', (item['link'], ))
+                cursor.execute(
+                    'select 1 from entries where link = %s limit 1', (item['link'], ))
                 results = cursor.fetchall()
                 if (not results) or (len(results) == 0):
                     try:
@@ -216,7 +217,6 @@ def crawl():
                         if 'author' in item:
                             entry['author'] = item['author'][0:20]
 
-
                         if 'summary' in item:
                             entry['description'] = item['summary'][0:500]
 
@@ -224,7 +224,7 @@ def crawl():
                             entry['content'] = item['content'][0]['value'][0:15000]
                         if entry['content'] == '' and 'summary' in item and len(item['summary']) > 0:
                             entry['content'] = item['summary'][0:15000]
-                        
+
                         #对于文章类entry才进行摘要、聚类、分类、标签
                         if source['form'] == 1:
                             try:
@@ -233,19 +233,23 @@ def crawl():
                                     if len(entry['photo']) > 255:
                                         entry['photo'] = ''
 
-                                    parser = HtmlParser.from_string(entry['content'], "", Tokenizer(LANGUAGE))
+                                    parser = HtmlParser.from_string(
+                                        entry['content'], "", Tokenizer(LANGUAGE))
                                     stemmer = Stemmer(LANGUAGE)
                                     summarizer = Summarizer(stemmer)
-                                    summarizer.stop_words = get_stop_words(LANGUAGE)
+                                    summarizer.stop_words = get_stop_words(
+                                        LANGUAGE)
                                     for sentence in summarizer(parser.document, SENTENCES_COUNT):
                                         entry['digest'] += str(sentence)
                                         if len(entry['digest']) >= 500:
                                             break
                                 else:
-                                    parser = HtmlParser.from_url(entry['link'], Tokenizer(LANGUAGE))
+                                    parser = HtmlParser.from_url(
+                                        entry['link'], Tokenizer(LANGUAGE))
                                     stemmer = Stemmer(LANGUAGE)
                                     summarizer = Summarizer(stemmer)
-                                    summarizer.stop_words = get_stop_words(LANGUAGE)
+                                    summarizer.stop_words = get_stop_words(
+                                        LANGUAGE)
                                     for sentence in summarizer(parser.document, SENTENCES_COUNT):
                                         entry['digest'] += str(sentence)
                                         if len(entry['digest']) >= 500:
@@ -256,11 +260,14 @@ def crawl():
 
                             try:
                                 if len(entry['title']) > 0 and len(get_features(entry['title'])) >= 2:
-                                    entry['simhash'] = str(Simhash(get_features(entry['title'])).value)
-                                    nears = index.get_near_dups(Simhash(get_features(entry['title'])))
+                                    entry['simhash'] = str(
+                                        Simhash(get_features(entry['title'])).value)
+                                    nears = index.get_near_dups(
+                                        Simhash(get_features(entry['title'])))
                                     if len(nears) > 0:
                                         entry['sim_count'] = len(nears)
-                                        cursor.execute('select cluster from entries where id = %s', (int(nears[0]), ))
+                                        cursor.execute(
+                                            'select cluster from entries where id = %s', (int(nears[0]), ))
                                         near_cluster = cursor.fetchone()[0]
                                         entry['cluster'] = near_cluster
                                     else:
@@ -269,7 +276,6 @@ def crawl():
                                         last_cluster_num += 1
                             except Exception as e:
                                 print('Exception when clustering: {}'.format(e))
-
 
                             try:
                                 content2 = BeautifulSoup(entry['content'], "lxml").text.encode(
@@ -310,7 +316,8 @@ def crawl():
                                 entry['tag4'] = tag[3]
                                 entry['tag5'] = tag[4]
                             except Exception as e:
-                                print('Exception when categorizing and tagging: {}'.format(e))
+                                print(
+                                    'Exception when categorizing and tagging: {}'.format(e))
 
                         elif source['form'] == 2:
                             entry['photo'] = getWeiboImg(entry['content'])
@@ -321,7 +328,9 @@ def crawl():
                         try:
                             cursor.execute(add_entry, entry)
                             conn.commit()
-                            index.add(str(cursor.lastrowid), Simhash(get_features(entry['title'])))
+                            print(entry['title'] + '\n')
+                            index.add(str(cursor.lastrowid), Simhash(
+                                get_features(entry['title'])))
                         except Exception as e:
                             print('Exception when add entry: {}'.format(e))
                     except Exception as e:
@@ -332,18 +341,14 @@ def crawl():
     elapsed = time.clock() - start
     print('time used: ' + str(elapsed))
 
-
     # 关闭Cursor和Connection:
     cursor.close()
 
 
 restore_simhash()
-sched = BlockingScheduler()
-sched.add_job(crawl, 'interval', minutes=30, max_instances=5)
-sched.start()
+crawl()
 
 # restore_simhash()
 # crawl()
 
 conn.close()
-

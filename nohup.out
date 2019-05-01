@@ -1,0 +1,2407 @@
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Loading model cost 1.057 seconds.
+Prefix dict has been built succesfully.
+Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+Loading model cost 1.077 seconds.
+Prefix dict has been built succesfully.
+2019-04-27 20:30:16.799904
+1
+爱范儿
+2
+腾讯科技
+3
+The Verge
+4
+月光博客
+5
+虎嗅
+6
+PingWest品玩
+11
+少数派
+12
+9to5Google
+13
+好奇心日报
+14
+36氪
+16
+雷锋网
+19
+北邮信息门户通知公告
+21
+华尔街见闻
+24
+开发者头条
+32
+英式没品笑话百科的微博
+34
+Hacker News
+37
+扯氮集
+38
+湾区日报
+40
+科学松鼠会
+41
+果壳精选
+44
+小众软件
+45
+阮一峰的网络日志
+46
+利器
+47
+Solidot
+49
+Linux中国开源社区
+50
+酷壳CoolShell
+51
+伯乐在线
+52
+机器之心
+53
+掘金
+55
+机核
+56
+腾讯大家
+57
+FT中文网
+59
+触乐
+61
+设计癖
+62
+爱稀奇
+63
+TOPYS
+65
+读书马上
+67
+人人都是产品经理
+68
+PMCAFF产品经理社区
+69
+运营派
+70
+梅花网
+71
+雪球
+72
+国家统计局最新发布
+73
+新芽
+75
+Github Trending
+76
+小道消息
+77
+北邮人论坛十大热门
+78
+新闻实验室微信公众号
+79
+钛媒体
+80
+槽边往事微信公众号
+81
+王兴的饭否
+82
+Recode
+83
+来去之间的微博
+84
+褚明宇的微博
+85
+北京牛丸的微博
+86
+智智的微博
+87
+每日人物微信公众号
+88
+LateNews by 小晚微信公众号
+89
+InfoQ中文
+90
+Slashdot
+91
+Product Hunt
+92
+北邮人论坛考研专版
+93
+高可用架构微信公众号
+94
+北方公园NorthPark微信公众号
+95
+北航新闻 - 信息公告
+96
+北大信科通知
+97
+Yoga的微博
+98
+thoughtbot
+time used: 8.34
+2019-04-27 21:00:16.800973
+1
+爱范儿
+2
+腾讯科技
+3
+The Verge
+4
+月光博客
+5
+虎嗅
+6
+PingWest品玩
+11
+少数派
+12
+9to5Google
+13
+好奇心日报
+14
+36氪
+16
+雷锋网
+19
+北邮信息门户通知公告
+21
+华尔街见闻
+24
+开发者头条
+32
+英式没品笑话百科的微博
+34
+Hacker News
+37
+扯氮集
+38
+湾区日报
+40
+科学松鼠会
+41
+果壳精选
+44
+小众软件
+45
+阮一峰的网络日志
+46
+利器
+47
+Solidot
+49
+Linux中国开源社区
+50
+酷壳CoolShell
+51
+伯乐在线
+52
+机器之心
+53
+掘金
+Exception when categorizing and tagging: 'item'
+Exception when categorizing and tagging: 'item'
+Exception when categorizing and tagging: 'item'
+55
+机核
+56
+腾讯大家
+57
+FT中文网
+59
+触乐
+61
+设计癖
+62
+爱稀奇
+63
+TOPYS
+65
+读书马上
+67
+人人都是产品经理
+68
+PMCAFF产品经理社区
+69
+运营派
+70
+梅花网
+71
+雪球
+72
+国家统计局最新发布
+73
+新芽
+75
+Github Trending
+76
+小道消息
+77
+北邮人论坛十大热门
+78
+新闻实验室微信公众号
+79
+钛媒体
+80
+槽边往事微信公众号
+81
+王兴的饭否
+82
+Recode
+83
+来去之间的微博
+Exception when published_parsed: Tuple or struct_time argument required
+84
+褚明宇的微博
+85
+北京牛丸的微博
+86
+智智的微博
+87
+每日人物微信公众号
+88
+LateNews by 小晚微信公众号
+89
+InfoQ中文
+90
+Slashdot
+91
+Product Hunt
+92
+北邮人论坛考研专版
+93
+高可用架构微信公众号
+94
+北方公园NorthPark微信公众号
+95
+北航新闻 - 信息公告
+96
+北大信科通知
+97
+Yoga的微博
+98
+thoughtbot
+time used: 22.630000000000003
+2019-04-27 21:30:16.815601
+1
+爱范儿
+2
+腾讯科技
+3
+The Verge
+4
+月光博客
+5
+虎嗅
+6
+PingWest品玩
+11
+少数派
+12
+9to5Google
+13
+好奇心日报
+14
+36氪
+16
+雷锋网
+19
+北邮信息门户通知公告
+21
+华尔街见闻
+24
+开发者头条
+32
+英式没品笑话百科的微博
+34
+Hacker News
+37
+扯氮集
+38
+湾区日报
+40
+科学松鼠会
+41
+果壳精选
+44
+小众软件
+45
+阮一峰的网络日志
+46
+利器
+47
+Solidot
+49
+Linux中国开源社区
+50
+酷壳CoolShell
+51
+伯乐在线
+52
+机器之心
+53
+掘金
+Unexpected Error: 'link'
+55
+机核
+56
+腾讯大家
+57
+FT中文网
+59
+触乐
+61
+设计癖
+62
+爱稀奇
+63
+TOPYS
+65
+读书马上
+67
+人人都是产品经理
+68
+PMCAFF产品经理社区
+69
+运营派
+70
+梅花网
+71
+雪球
+72
+国家统计局最新发布
+73
+新芽
+75
+Github Trending
+76
+小道消息
+77
+北邮人论坛十大热门
+78
+新闻实验室微信公众号
+79
+钛媒体
+80
+槽边往事微信公众号
+81
+王兴的饭否
+82
+Recode
+83
+来去之间的微博
+84
+褚明宇的微博
+85
+北京牛丸的微博
+86
+智智的微博
+87
+每日人物微信公众号
+88
+LateNews by 小晚微信公众号
+89
+InfoQ中文
+90
+Slashdot
+91
+Product Hunt
+92
+北邮人论坛考研专版
+93
+高可用架构微信公众号
+94
+北方公园NorthPark微信公众号
+95
+北航新闻 - 信息公告
+96
+北大信科通知
+97
+Yoga的微博
+98
+thoughtbot
+time used: 14.829999999999998
+2019-04-27 22:00:16.813022
+1
+爱范儿
+2
+腾讯科技
+3
+The Verge
+4
+月光博客
+5
+虎嗅
+6
+PingWest品玩
+11
+少数派
+12
+9to5Google
+13
+好奇心日报
+14
+36氪
+16
+雷锋网
+19
+北邮信息门户通知公告
+21
+华尔街见闻
+24
+开发者头条
+32
+英式没品笑话百科的微博
+34
+Hacker News
+37
+扯氮集
+38
+湾区日报
+40
+科学松鼠会
+41
+果壳精选
+44
+小众软件
+45
+阮一峰的网络日志
+46
+利器
+47
+Solidot
+49
+Linux中国开源社区
+50
+酷壳CoolShell
+51
+伯乐在线
+52
+机器之心
+53
+掘金
+Exception when categorizing and tagging: 'item'
+Unexpected Error: 'link'
+55
+机核
+56
+腾讯大家
+57
+FT中文网
+59
+触乐
+61
+设计癖
+62
+爱稀奇
+63
+TOPYS
+65
+读书马上
+67
+人人都是产品经理
+68
+PMCAFF产品经理社区
+69
+运营派
+70
+梅花网
+71
+雪球
+72
+国家统计局最新发布
+73
+新芽
+75
+Github Trending
+76
+小道消息
+77
+北邮人论坛十大热门
+78
+新闻实验室微信公众号
+79
+钛媒体
+80
+槽边往事微信公众号
+81
+王兴的饭否
+82
+Recode
+83
+来去之间的微博
+84
+褚明宇的微博
+85
+北京牛丸的微博
+86
+智智的微博
+87
+每日人物微信公众号
+88
+LateNews by 小晚微信公众号
+89
+InfoQ中文
+90
+Slashdot
+91
+Product Hunt
+92
+北邮人论坛考研专版
+93
+高可用架构微信公众号
+94
+北方公园NorthPark微信公众号
+95
+北航新闻 - 信息公告
+96
+北大信科通知
+97
+Yoga的微博
+98
+thoughtbot
+time used: 17.4
+2019-04-27 22:30:16.815429
+1
+爱范儿
+2
+腾讯科技
+3
+The Verge
+4
+月光博客
+5
+虎嗅
+6
+PingWest品玩
+11
+少数派
+12
+9to5Google
+13
+好奇心日报
+14
+36氪
+16
+雷锋网
+19
+北邮信息门户通知公告
+21
+华尔街见闻
+24
+开发者头条
+32
+英式没品笑话百科的微博
+34
+Hacker News
+37
+扯氮集
+38
+湾区日报
+40
+科学松鼠会
+41
+果壳精选
+44
+小众软件
+45
+阮一峰的网络日志
+46
+利器
+47
+Solidot
+49
+Linux中国开源社区
+50
+酷壳CoolShell
+51
+伯乐在线
+52
+机器之心
+53
+掘金
+Unexpected Error: 'link'
+55
+机核
+56
+腾讯大家
+57
+FT中文网
+59
+触乐
+61
+设计癖
+62
+爱稀奇
+63
+TOPYS
+65
+读书马上
+67
+人人都是产品经理
+68
+PMCAFF产品经理社区
+69
+运营派
+70
+梅花网
+71
+雪球
+72
+国家统计局最新发布
+73
+新芽
+75
+Github Trending
+76
+小道消息
+77
+北邮人论坛十大热门
+78
+新闻实验室微信公众号
+79
+钛媒体
+80
+槽边往事微信公众号
+81
+王兴的饭否
+82
+Recode
+83
+来去之间的微博
+84
+褚明宇的微博
+85
+北京牛丸的微博
+86
+智智的微博
+87
+每日人物微信公众号
+88
+LateNews by 小晚微信公众号
+89
+InfoQ中文
+90
+Slashdot
+91
+Product Hunt
+92
+北邮人论坛考研专版
+93
+高可用架构微信公众号
+94
+北方公园NorthPark微信公众号
+95
+北航新闻 - 信息公告
+96
+北大信科通知
+97
+Yoga的微博
+98
+thoughtbot
+time used: 8.430000000000007
+2019-04-27 23:00:16.812990
+1
+爱范儿
+2
+腾讯科技
+3
+The Verge
+4
+月光博客
+5
+虎嗅
+6
+PingWest品玩
+11
+少数派
+12
+9to5Google
+13
+好奇心日报
+14
+36氪
+16
+雷锋网
+19
+北邮信息门户通知公告
+21
+华尔街见闻
+24
+开发者头条
+32
+英式没品笑话百科的微博
+34
+Hacker News
+37
+扯氮集
+38
+湾区日报
+40
+科学松鼠会
+41
+果壳精选
+44
+小众软件
+45
+阮一峰的网络日志
+46
+利器
+47
+Solidot
+49
+Linux中国开源社区
+50
+酷壳CoolShell
+51
+伯乐在线
+52
+机器之心
+53
+掘金
+Unexpected Error: 'link'
+55
+机核
+56
+腾讯大家
+57
+FT中文网
+59
+触乐
+61
+设计癖
+62
+爱稀奇
+63
+TOPYS
+65
+读书马上
+67
+人人都是产品经理
+68
+PMCAFF产品经理社区
+69
+运营派
+70
+梅花网
+71
+雪球
+72
+国家统计局最新发布
+73
+新芽
+75
+Github Trending
+76
+小道消息
+77
+北邮人论坛十大热门
+78
+新闻实验室微信公众号
+79
+钛媒体
+80
+槽边往事微信公众号
+81
+王兴的饭否
+82
+Recode
+83
+来去之间的微博
+84
+褚明宇的微博
+85
+北京牛丸的微博
+86
+智智的微博
+87
+每日人物微信公众号
+88
+LateNews by 小晚微信公众号
+89
+InfoQ中文
+90
+Slashdot
+91
+Product Hunt
+92
+北邮人论坛考研专版
+93
+高可用架构微信公众号
+94
+北方公园NorthPark微信公众号
+95
+北航新闻 - 信息公告
+96
+北大信科通知
+97
+Yoga的微博
+98
+thoughtbot
+time used: 6.259999999999991
+2019-04-27 23:30:16.813975
+1
+爱范儿
+2
+腾讯科技
+3
+The Verge
+4
+月光博客
+5
+虎嗅
+6
+PingWest品玩
+11
+少数派
+12
+9to5Google
+13
+好奇心日报
+14
+36氪
+16
+雷锋网
+19
+北邮信息门户通知公告
+21
+华尔街见闻
+24
+开发者头条
+32
+英式没品笑话百科的微博
+34
+Hacker News
+37
+扯氮集
+38
+湾区日报
+40
+科学松鼠会
+Unexpected Error: 1053 (08S01): Server shutdown in progress
+Unexpected Error: 2013: Lost connection to MySQL server during query
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+41
+果壳精选
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+44
+小众软件
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+45
+阮一峰的网络日志
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+46
+利器
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+47
+Solidot
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+49
+Linux中国开源社区
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+50
+酷壳CoolShell
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+51
+伯乐在线
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+52
+机器之心
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+53
+掘金
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+55
+机核
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+56
+腾讯大家
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+57
+FT中文网
+59
+触乐
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+61
+设计癖
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+62
+爱稀奇
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+63
+TOPYS
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+65
+读书马上
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+67
+人人都是产品经理
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+68
+PMCAFF产品经理社区
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+69
+运营派
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+70
+梅花网
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+71
+雪球
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+72
+国家统计局最新发布
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+73
+新芽
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+75
+Github Trending
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+76
+小道消息
+77
+北邮人论坛十大热门
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+78
+新闻实验室微信公众号
+79
+钛媒体
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+80
+槽边往事微信公众号
+81
+王兴的饭否
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+82
+Recode
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+83
+来去之间的微博
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+84
+褚明宇的微博
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+85
+北京牛丸的微博
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+86
+智智的微博
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+87
+每日人物微信公众号
+88
+LateNews by 小晚微信公众号
+89
+InfoQ中文
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+90
+Slashdot
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+91
+Product Hunt
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+Unexpected Error: 2055: Lost connection to MySQL server at '127.0.0.1:3306', system error: 32 Broken pipe
+92Job "crawl (trigger: interval[0:30:00], next run at: 2019-04-28 00:30:16 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "crawler.py", line 141, in crawl
+    cursor = conn.cursor()
+  File "/usr/lib64/python3.6/site-packages/mysql/connector/connection.py", line 871, in cursor
+    raise errors.OperationalError("MySQL Connection not available.")
+mysql.connector.errors.OperationalError: MySQL Connection not available.
+Job "crawl (trigger: interval[0:30:00], next run at: 2019-04-28 00:30:16 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "crawler.py", line 141, in crawl
+    cursor = conn.cursor()
+  File "/usr/lib64/python3.6/site-packages/mysql/connector/connection.py", line 871, in cursor
+    raise errors.OperationalError("MySQL Connection not available.")
+mysql.connector.errors.OperationalError: MySQL Connection not available.
+Job "crawl (trigger: interval[0:30:00], next run at: 2019-04-28 01:00:16 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "crawler.py", line 141, in crawl
+    cursor = conn.cursor()
+  File "/usr/lib64/python3.6/site-packages/mysql/connector/connection.py", line 871, in cursor
+    raise errors.OperationalError("MySQL Connection not available.")
+mysql.connector.errors.OperationalError: MySQL Connection not available.
+Job "crawl (trigger: interval[0:30:00], next run at: 2019-04-28 02:00:16 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "crawler.py", line 141, in crawl
+    cursor = conn.cursor()
+  File "/usr/lib64/python3.6/site-packages/mysql/connector/connection.py", line 871, in cursor
+    raise errors.OperationalError("MySQL Connection not available.")
+mysql.connector.errors.OperationalError: MySQL Connection not available.
+Job "crawl (trigger: interval[0:30:00], next run at: 2019-04-28 02:30:16 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "crawler.py", line 141, in crawl
+    cursor = conn.cursor()
+  File "/usr/lib64/python3.6/site-packages/mysql/connector/connection.py", line 871, in cursor
+    raise errors.OperationalError("MySQL Connection not available.")
+mysql.connector.errors.OperationalError: MySQL Connection not available.
+Job "crawl (trigger: interval[0:30:00], next run at: 2019-04-28 03:00:16 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "crawler.py", line 141, in crawl
+    cursor = conn.cursor()
+  File "/usr/lib64/python3.6/site-packages/mysql/connector/connection.py", line 871, in cursor
+    raise errors.OperationalError("MySQL Connection not available.")
+mysql.connector.errors.OperationalError: MySQL Connection not available.
+Job "crawl (trigger: interval[0:30:00], next run at: 2019-04-28 03:30:16 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "crawler.py", line 141, in crawl
+    cursor = conn.cursor()
+  File "/usr/lib64/python3.6/site-packages/mysql/connector/connection.py", line 871, in cursor
+    raise errors.OperationalError("MySQL Connection not available.")
+mysql.connector.errors.OperationalError: MySQL Connection not available.
+Job "crawl (trigger: interval[0:30:00], next run at: 2019-04-28 04:00:16 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "crawler.py", line 141, in crawl
+    cursor = conn.cursor()
+  File "/usr/lib64/python3.6/site-packages/mysql/connector/connection.py", line 871, in cursor
+    raise errors.OperationalError("MySQL Connection not available.")
+mysql.connector.errors.OperationalError: MySQL Connection not available.
+Job "crawl (trigger: interval[0:30:00], next run at: 2019-04-28 04:30:16 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "crawler.py", line 141, in crawl
+    cursor = conn.cursor()
+  File "/usr/lib64/python3.6/site-packages/mysql/connector/connection.py", line 871, in cursor
+    raise errors.OperationalError("MySQL Connection not available.")
+mysql.connector.errors.OperationalError: MySQL Connection not available.
+Job "crawl (trigger: interval[0:30:00], next run at: 2019-04-28 05:00:16 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "crawler.py", line 141, in crawl
+    cursor = conn.cursor()
+  File "/usr/lib64/python3.6/site-packages/mysql/connector/connection.py", line 871, in cursor
+    raise errors.OperationalError("MySQL Connection not available.")
+mysql.connector.errors.OperationalError: MySQL Connection not available.
+Job "crawl (trigger: interval[0:30:00], next run at: 2019-04-28 05:30:16 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "crawler.py", line 141, in crawl
+    cursor = conn.cursor()
+  File "/usr/lib64/python3.6/site-packages/mysql/connector/connection.py", line 871, in cursor
+    raise errors.OperationalError("MySQL Connection not available.")
+mysql.connector.errors.OperationalError: MySQL Connection not available.
+Job "crawl (trigger: interval[0:30:00], next run at: 2019-04-28 06:00:16 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "crawler.py", line 141, in crawl
+    cursor = conn.cursor()
+  File "/usr/lib64/python3.6/site-packages/mysql/connector/connection.py", line 871, in cursor
+    raise errors.OperationalError("MySQL Connection not available.")
+mysql.connector.errors.OperationalError: MySQL Connection not available.
+Job "crawl (trigger: interval[0:30:00], next run at: 2019-04-28 06:30:16 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "crawler.py", line 141, in crawl
+    cursor = conn.cursor()
+  File "/usr/lib64/python3.6/site-packages/mysql/connector/connection.py", line 871, in cursor
+    raise errors.OperationalError("MySQL Connection not available.")
+mysql.connector.errors.OperationalError: MySQL Connection not available.
+Job "crawl (trigger: interval[0:30:00], next run at: 2019-04-28 07:00:16 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "crawler.py", line 141, in crawl
+    cursor = conn.cursor()
+  File "/usr/lib64/python3.6/site-packages/mysql/connector/connection.py", line 871, in cursor
+    raise errors.OperationalError("MySQL Connection not available.")
+mysql.connector.errors.OperationalError: MySQL Connection not available.
+Job "crawl (trigger: interval[0:30:00], next run at: 2019-04-28 07:30:16 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "crawler.py", line 141, in crawl
+    cursor = conn.cursor()
+  File "/usr/lib64/python3.6/site-packages/mysql/connector/connection.py", line 871, in cursor
+    raise errors.OperationalError("MySQL Connection not available.")
+mysql.connector.errors.OperationalError: MySQL Connection not available.
+Job "crawl (trigger: interval[0:30:00], next run at: 2019-04-28 08:00:16 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "crawler.py", line 141, in crawl
+    cursor = conn.cursor()
+  File "/usr/lib64/python3.6/site-packages/mysql/connector/connection.py", line 871, in cursor
+    raise errors.OperationalError("MySQL Connection not available.")
+mysql.connector.errors.OperationalError: MySQL Connection not available.
+Job "crawl (trigger: interval[0:30:00], next run at: 2019-04-28 08:30:16 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "crawler.py", line 141, in crawl
+    cursor = conn.cursor()
+  File "/usr/lib64/python3.6/site-packages/mysql/connector/connection.py", line 871, in cursor
+    raise errors.OperationalError("MySQL Connection not available.")
+mysql.connector.errors.OperationalError: MySQL Connection not available.
+Job "crawl (trigger: interval[0:30:00], next run at: 2019-04-28 09:00:16 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "crawler.py", line 141, in crawl
+    cursor = conn.cursor()
+  File "/usr/lib64/python3.6/site-packages/mysql/connector/connection.py", line 871, in cursor
+    raise errors.OperationalError("MySQL Connection not available.")
+mysql.connector.errors.OperationalError: MySQL Connection not available.
+Job "crawl (trigger: interval[0:30:00], next run at: 2019-04-28 09:30:16 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "crawler.py", line 141, in crawl
+    cursor = conn.cursor()
+  File "/usr/lib64/python3.6/site-packages/mysql/connector/connection.py", line 871, in cursor
+    raise errors.OperationalError("MySQL Connection not available.")
+mysql.connector.errors.OperationalError: MySQL Connection not available.
+Job "crawl (trigger: interval[0:30:00], next run at: 2019-04-28 10:00:16 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "crawler.py", line 141, in crawl
+    cursor = conn.cursor()
+  File "/usr/lib64/python3.6/site-packages/mysql/connector/connection.py", line 871, in cursor
+    raise errors.OperationalError("MySQL Connection not available.")
+mysql.connector.errors.OperationalError: MySQL Connection not available.
+Job "crawl (trigger: interval[0:30:00], next run at: 2019-04-28 10:30:16 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "crawler.py", line 141, in crawl
+    cursor = conn.cursor()
+  File "/usr/lib64/python3.6/site-packages/mysql/connector/connection.py", line 871, in cursor
+    raise errors.OperationalError("MySQL Connection not available.")
+mysql.connector.errors.OperationalError: MySQL Connection not available.
+Job "crawl (trigger: interval[0:30:00], next run at: 2019-04-28 11:00:16 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "crawler.py", line 141, in crawl
+    cursor = conn.cursor()
+  File "/usr/lib64/python3.6/site-packages/mysql/connector/connection.py", line 871, in cursor
+    raise errors.OperationalError("MySQL Connection not available.")
+mysql.connector.errors.OperationalError: MySQL Connection not available.
+Job "crawl (trigger: interval[0:30:00], next run at: 2019-04-28 11:30:16 CST)" raised an exception
+Traceback (most recent call last):
+  File "/usr/lib64/python3.6/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "crawler.py", line 141, in crawl
+    cursor = conn.cursor()
+  File "/usr/lib64/python3.6/site-packages/mysql/connector/connection.py", line 871, in cursor
+    raise errors.OperationalError("MySQL Connection not available.")
+mysql.connector.errors.OperationalError: MySQL Connection not available.
