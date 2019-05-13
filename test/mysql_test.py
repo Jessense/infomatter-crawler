@@ -4,7 +4,7 @@ conn = mysql.connector.connect(user='root', password='123456', database='test_sc
 
 cursor = conn.cursor()
 cursor.execute(
-    "INSERT INTO fuck (id, name) VALUES (\"10\", \"哈哈\")")
+    "INSERT INTO fuck (id, name) VALUES (\"11\", \"哈哈\")")
 conn.commit()
 print(cursor.fetchone())
 conn.close()

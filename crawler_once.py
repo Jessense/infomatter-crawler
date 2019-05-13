@@ -30,13 +30,14 @@ client = AipNlp(APP_ID, API_KEY, SECRET_KEY)
 
 
 # 注意把password设为你的root口令:
-conn = mysql.connector.connect(user='root', password=sql_password, database='test')
+conn = mysql.connector.connect(
+    user='root', password=sql_password, database='test')
 conn.autocommit = True
 
 
-add_entry = ("INSERT INTO entries "
-             "(title, link, source_id, source_name, time, crawl_time, photo, lang, author, description, digest, content, cluster, sim_count, simhash, cate11, cate12, cate13, cate21, cate22, cate23, tag1, tag2, tag3, tag4, tag5) "
-             "VALUES (%(title)s, %(link)s, %(source_id)s, %(source_name)s, %(time)s, %(crawl_time)s, %(photo)s, %(lang)s, %(author)s, %(description)s, %(digest)s, %(content)s, %(cluster)s, %(sim_count)s, %(simhash)s, %(cate11)s, %(cate12)s, %(cate13)s, %(cate21)s, %(cate22)s, %(cate23)s, %(tag1)s, %(tag2)s, %(tag3)s, %(tag4)s, %(tag5)s)")
+add_entry = ("INSERT IGNORE INTO entries "
+             "(title, link, source_id, source_name, time, crawl_time, photo, lang, author, description, digest, content, cluster, sim_count, simhash, cate11, cate12, cate13, cate21, cate22, cate23, tag1, tag2, tag3, tag4, tag5, video, video_frame, audio, audio_frame) "
+             "VALUES (%(title)s, %(link)s, %(source_id)s, %(source_name)s, %(time)s, %(crawl_time)s, %(photo)s, %(lang)s, %(author)s, %(description)s, %(digest)s, %(content)s, %(cluster)s, %(sim_count)s, %(simhash)s, %(cate11)s, %(cate12)s, %(cate13)s, %(cate21)s, %(cate22)s, %(cate23)s, %(tag1)s, %(tag2)s, %(tag3)s, %(tag4)s, %(tag5)s, %(video)s, %(video_frame)s, %(audio)s, %(audio_frame)s)")
 
 
 last_cluster_num = 0
@@ -149,7 +150,7 @@ def crawl():
         source = {
             'id': source[0],
             'name': source[1],
-            'feedUrl': source[2].replace("188.131.178.76", "127.0.0.1"),
+            'feedUrl': source[2].replace("39.105.127.55", "127.0.0.1"),
             'lang': source[3],
             'form': source[4]
         }
@@ -160,8 +161,7 @@ def crawl():
         items = feedparser.parse(source['feedUrl'])['items']
         for item in items:
             try:
-                cursor.execute(
-                    'select 1 from entries where link = %s limit 1', (item['link'], ))
+                cursor.execute('select 1 from entries where link = %s limit 1', (item['link'], ))
                 results = cursor.fetchall()
                 if (not results) or (len(results) == 0):
                     try:
@@ -191,7 +191,11 @@ def crawl():
                             'tag2': '',
                             'tag3': '',
                             'tag4': '',
-                            'tag5': ''
+                            'tag5': '',
+                            'video': '',
+                            'video_frame': '',
+                            'audio': '',
+                            'audio_frame': ''
                         }
                         cate1 = ['', '', '']
                         cate2 = ['', '', '']
@@ -224,6 +228,12 @@ def crawl():
                             entry['content'] = item['content'][0]['value'][0:15000]
                         if entry['content'] == '' and 'summary' in item and len(item['summary']) > 0:
                             entry['content'] = item['summary'][0:15000]
+                        for field in item['links']:
+                            if field['type'] == 'audio/mpeg':
+                                if field['href'].endswith('.mp3'):
+                                    entry['audio'] = field['href']
+                                if field['href'].endswith('.mp4'):
+                                    entry['video'] = field['href']
 
                         #对于文章类entry才进行摘要、聚类、分类、标签
                         if source['form'] == 1:
@@ -237,8 +247,7 @@ def crawl():
                                         entry['content'], "", Tokenizer(LANGUAGE))
                                     stemmer = Stemmer(LANGUAGE)
                                     summarizer = Summarizer(stemmer)
-                                    summarizer.stop_words = get_stop_words(
-                                        LANGUAGE)
+                                    summarizer.stop_words = get_stop_words(LANGUAGE)
                                     for sentence in summarizer(parser.document, SENTENCES_COUNT):
                                         entry['digest'] += str(sentence)
                                         if len(entry['digest']) >= 500:
@@ -248,8 +257,7 @@ def crawl():
                                         entry['link'], Tokenizer(LANGUAGE))
                                     stemmer = Stemmer(LANGUAGE)
                                     summarizer = Summarizer(stemmer)
-                                    summarizer.stop_words = get_stop_words(
-                                        LANGUAGE)
+                                    summarizer.stop_words = get_stop_words(LANGUAGE)
                                     for sentence in summarizer(parser.document, SENTENCES_COUNT):
                                         entry['digest'] += str(sentence)
                                         if len(entry['digest']) >= 500:
@@ -316,8 +324,7 @@ def crawl():
                                 entry['tag4'] = tag[3]
                                 entry['tag5'] = tag[4]
                             except Exception as e:
-                                print(
-                                    'Exception when categorizing and tagging: {}'.format(e))
+                                print('Exception when categorizing and tagging: {}'.format(e))
 
                         elif source['form'] == 2:
                             entry['photo'] = getWeiboImg(entry['content'])
@@ -325,10 +332,14 @@ def crawl():
                             if len(entry['digest']) > 500:
                                 entry['digest'] = entry['digest'][0:500]
 
+                        elif source['form'] == 4:
+                            if entry['link'].startswith('https://www.bilibili.com/video'):
+                                entry['video_frame'] = 'http://player.bilibili.com/player.html?aid=' + \
+                                    entry['link'][33:]
+
                         try:
                             cursor.execute(add_entry, entry)
                             conn.commit()
-                            print(entry['title'] + '\n')
                             index.add(str(cursor.lastrowid), Simhash(
                                 get_features(entry['title'])))
                         except Exception as e:
@@ -345,10 +356,9 @@ def crawl():
     cursor.close()
 
 
+
+
 restore_simhash()
 crawl()
-
-# restore_simhash()
-# crawl()
 
 conn.close()
