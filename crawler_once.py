@@ -11,7 +11,7 @@ from sumy.utils import get_stop_words
 from simhash import Simhash, SimhashIndex
 
 import nltk
-import jieba
+import jieba.analyse
 
 from apscheduler.schedulers.blocking import BlockingScheduler
 from datetime import datetime, timedelta, timezone
@@ -118,23 +118,37 @@ def is_cn(word):
     return False
 
 
-def get_features(s):
-    if is_en(s):
-        punc = list('`~!@#$%^&*()_+-={}|:\"<>?[]\\;\',./')
-        s = s.lower()
-        s = nltk.word_tokenize(s)
-        for word in s:
-            if word in get_stop_words('english') or word in punc:
-                s.remove(word)
-        return s
-    else:
-        punc = list('·~！!@#￥$%…&*（）()_——+-={}|、：:\'\"\\“”《》<>？?【】[]；‘’，。,./')
-        s = s.lower()
-        s = (" ".join(jieba.cut(s))).split()
-        for word in s:
-            if word in get_stop_words('chinese') or word in punc:
-                s.remove(word)
-        return s
+def get_features(title, content):
+    title_tags = jieba.analyse.extract_tags(title, topK=10, withWeight=True)
+    content_tags = jieba.analyse.extract_tags(
+        BeautifulSoup(content, "lxml").text, topK=10, withWeight=True)
+    tags = {}
+    for k, v in title_tags:
+        tags[k] = v
+    for k, v in content_tags:
+        if k in tags:
+            tags[k] = tags[k] + v
+        else:
+            tags[k] = v
+    return tags
+
+# def get_features(s):
+#     if is_en(s):
+#         punc = list('`~!@#$%^&*()_+-={}|:\"<>?[]\\;\',./')
+#         s = s.lower()
+#         s = nltk.word_tokenize(s)
+#         for word in s:
+#             if word in get_stop_words('english') or word in punc:
+#                 s.remove(word)
+#         return s
+#     else:
+#         punc = list('·~！!@#￥$%…&*（）()_——+-={}|、：:\'\"\\“”《》<>？?【】[]；‘’，。,./')
+#         s = s.lower()
+#         s = (" ".join(jieba.cut(s))).split()
+#         for word in s:
+#             if word in get_stop_words('chinese') or word in punc:
+#                 s.remove(word)
+#         return s
 
 
 def crawl():
@@ -161,7 +175,8 @@ def crawl():
         items = feedparser.parse(source['feedUrl'])['items']
         for item in items:
             try:
-                cursor.execute('select 1 from entries where link = %s limit 1', (item['link'], ))
+                cursor.execute(
+                    'select 1 from entries where link = %s limit 1', (item['link'], ))
                 results = cursor.fetchall()
                 if (not results) or (len(results) == 0):
                     try:
@@ -247,7 +262,8 @@ def crawl():
                                         entry['content'], "", Tokenizer(LANGUAGE))
                                     stemmer = Stemmer(LANGUAGE)
                                     summarizer = Summarizer(stemmer)
-                                    summarizer.stop_words = get_stop_words(LANGUAGE)
+                                    summarizer.stop_words = get_stop_words(
+                                        LANGUAGE)
                                     for sentence in summarizer(parser.document, SENTENCES_COUNT):
                                         entry['digest'] += str(sentence)
                                         if len(entry['digest']) >= 500:
@@ -257,7 +273,8 @@ def crawl():
                                         entry['link'], Tokenizer(LANGUAGE))
                                     stemmer = Stemmer(LANGUAGE)
                                     summarizer = Summarizer(stemmer)
-                                    summarizer.stop_words = get_stop_words(LANGUAGE)
+                                    summarizer.stop_words = get_stop_words(
+                                        LANGUAGE)
                                     for sentence in summarizer(parser.document, SENTENCES_COUNT):
                                         entry['digest'] += str(sentence)
                                         if len(entry['digest']) >= 500:
@@ -266,22 +283,23 @@ def crawl():
                             except Exception as e:
                                 print('Exception when getting digest: {}'.format(e))
 
+                            features = get_features(
+                                entry['title'], entry['content'])
                             try:
-                                if len(entry['title']) > 0 and len(get_features(entry['title'])) >= 2:
-                                    entry['simhash'] = str(
-                                        Simhash(get_features(entry['title'])).value)
-                                    nears = index.get_near_dups(
-                                        Simhash(get_features(entry['title'])))
-                                    if len(nears) > 0:
-                                        entry['sim_count'] = len(nears)
-                                        cursor.execute(
-                                            'select cluster from entries where id = %s', (int(nears[0]), ))
-                                        near_cluster = cursor.fetchone()[0]
-                                        entry['cluster'] = near_cluster
-                                    else:
-                                        global last_cluster_num
-                                        entry['cluster'] = last_cluster_num
-                                        last_cluster_num += 1
+                                entry['simhash'] = str(
+                                    Simhash(features).value)
+                                nears = index.get_near_dups(
+                                    Simhash(features))
+                                if len(nears) > 0:
+                                    entry['sim_count'] = len(nears)
+                                    cursor.execute(
+                                        'select cluster from entries where id = %s', (int(nears[0]), ))
+                                    near_cluster = cursor.fetchone()[0]
+                                    entry['cluster'] = near_cluster
+                                else:
+                                    global last_cluster_num
+                                    entry['cluster'] = last_cluster_num
+                                    last_cluster_num += 1
                             except Exception as e:
                                 print('Exception when clustering: {}'.format(e))
 
@@ -324,7 +342,8 @@ def crawl():
                                 entry['tag4'] = tag[3]
                                 entry['tag5'] = tag[4]
                             except Exception as e:
-                                print('Exception when categorizing and tagging: {}'.format(e))
+                                print(
+                                    'Exception when categorizing and tagging: {}'.format(e))
 
                         elif source['form'] == 2:
                             entry['photo'] = getWeiboImg(entry['content'])
@@ -340,8 +359,7 @@ def crawl():
                         try:
                             cursor.execute(add_entry, entry)
                             conn.commit()
-                            index.add(str(cursor.lastrowid), Simhash(
-                                get_features(entry['title'])))
+                            index.add(str(cursor.lastrowid), Simhash(features))
                         except Exception as e:
                             print('Exception when add entry: {}'.format(e))
                     except Exception as e:
@@ -356,9 +374,8 @@ def crawl():
     cursor.close()
 
 
-
-
 restore_simhash()
 crawl()
+
 
 conn.close()

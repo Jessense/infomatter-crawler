@@ -13,8 +13,7 @@ from config import *
 # 注意把password设为你的root口令:
 conn = mysql.connector.connect(
     user='root', password=sql_password, database='test')
-conn.autocommit = True # 重要！
-
+conn.autocommit = True  # 重要！
 
 
 def is_en(s):
@@ -42,7 +41,8 @@ def is_cn(word):
 
 def get_features(title, content):
     title_tags = jieba.analyse.extract_tags(title, topK=10, withWeight=True)
-    content_tags = jieba.analyse.extract_tags(BeautifulSoup(content, "lxml").text, topK=10, withWeight=True)
+    content_tags = jieba.analyse.extract_tags(
+        BeautifulSoup(content, "lxml").text, topK=10, withWeight=True)
     tags = {}
     for k, v in title_tags:
         tags[k] = v
@@ -62,11 +62,14 @@ def get_features(title, content):
 #             s.remove(word)
 #     return s
 
+
 cluster_num = 0
 objs = []
 index = SimhashIndex(objs, k=tolerance)
 
+
 def restore_simhash():
+    global cluster_num
     print('restoring...')
     cursor = conn.cursor()
     cursor.execute('select id, simhash from entries where simhash > 0')
@@ -76,23 +79,26 @@ def restore_simhash():
 
     cursor.execute('select max(cluster) from entries')
     cluster_num = cursor.fetchone()[0] + 1
-    print('cluster_num: ' + str(cluster_num))
 
+def update_simhash():
+    cursor = conn.cursor()
+    cursor.execute(
+        'SELECT id, title, content, cluster, sim_count, link, simhash FROM entries where cluster = 0')
+    entrylist = cursor.fetchall()
+    for item in entrylist:
+        features = get_features(item[1], item[2])
+        sim = Simhash(features)
+
+        cursor.execute('UPDATE entries SET simhash=%s where id = %s', (
+            str(sim.value), item[0]))
 
 def clustering():
+    global index
+    global cluster_num
     # fout = open('cluster.txt', 'w', encoding='UTF-8')
-    print('restoring...')
     cursor = conn.cursor()
-    cursor.execute('select id, simhash from entries where cluster > 0')
-    entries = cursor.fetchall()
-    for entry in entries:
-        index.add(str(entry[0]), Simhash(int(entry[1])))
-
-    cursor.execute('select max(cluster) from entries')
-    cluster_num = cursor.fetchone()[0] + 1
-    print('cluster_num: ' + str(cluster_num))
-    
-    cursor.execute('SELECT id, title, content, cluster, sim_count, link, simhash FROM entries where cluster = 0')
+    cursor.execute(
+        'SELECT id, title, content, cluster, sim_count, link, simhash FROM entries where cluster = 0')
     entrylist = cursor.fetchall()
     for item in entrylist:
         print(item[0])
@@ -107,23 +113,20 @@ def clustering():
                 'select cluster from entries where id = %s', (int(nears[0]), ))
             near_cluster = cursor.fetchone()[0]
             cluster = near_cluster
-            print('cluster1: ' + str(cluster))
         else:
             cluster = cluster_num
             cluster_num += 1
-            print('cluster2: ' + str(cluster))
-        
+
         cursor.execute('UPDATE entries SET cluster=%s, sim_count=%s, simhash=%s where id = %s', (
             cluster, sim_count, str(sim.value), item[0]))
 
         index.add(str(item[0]), sim)
-        
+
         # entrydic[str(item[0])] = {
         #     'cluster': 0,
         #     'sim_count': 0,
         #     'simhash': sim
         # }
-        
 
     # cluster_num = 0
     # for key in entrydic:
@@ -146,4 +149,5 @@ def clustering():
     conn.close()
 
 
+restore_simhash()
 clustering()

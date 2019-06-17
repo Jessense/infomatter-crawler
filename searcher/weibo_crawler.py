@@ -10,7 +10,8 @@ from bs4 import BeautifulSoup
 import requests
 import json
 
-def weibo_crawler(keyword):
+
+def weibo(keyword):
     response = requests.get('https://s.weibo.com/user?q='+keyword +
                             '&Refer=weibo_user&sudaref=s.weibo.com&display=0&retcode=6102')
     html = response.text
@@ -41,11 +42,22 @@ def weibo_crawler(keyword):
     # store
     python2json = {}
     json_str = ''
-    for i in range(0, len(resultuid)):
-        python2json["uid"] = resultuid[i]
-        python2json["uname"] = resultuname[i]
-        python2json["photo"] = resultimg[i]
-        json_str = json.dumps(python2json) + ',' + json_str
+    i = 0
+    while i < len(resultuid):
+        python2json['id'] = 999999 + i
+        # python2json["uid"] = resultuid[i]
+        python2json["name"] = resultuname[i] + '的微博'
+        python2json['feedUrl'] = 'http://127.0.0.1:1200/weibo/user/' + resultuid[i]
+        python2json['link'] = 'https://weibo.com/u/' + resultuid[i]
+        python2json["photo"] = 'https:' + resultimg[i]
+        python2json['category'] = 'E'
+        python2json['form'] = 2
+        python2json['content_rss'] = 1
+        if i < len(resultuid) - 1:
+            json_str += json.dumps(python2json) + ','
+        else:
+            json_str += json.dumps(python2json)
+        i += 1
     json_str = '[' + json_str + ']'
 
     return json_str
@@ -53,5 +65,5 @@ def weibo_crawler(keyword):
 
 if __name__ == "__main__":
     keyword = 'qq'
-    result = weibo_crawler(keyword)
+    result = weibo(keyword)
     print(result)

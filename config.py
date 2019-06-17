@@ -1,5 +1,5 @@
-sql_password = ''
-tolerance = 13
+sql_password = 'Infomatter666!'
+tolerance = 10
 """ 百度云 APPID AK SK """
 APP_ID = '15606375'
 API_KEY = 'bcBGUHh2vuSEbKMfbUGttbwx'
